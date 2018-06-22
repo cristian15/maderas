@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Maderas Cordillera</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="dist/swiper.min.css">
+    <script src="dist/swiper.min.js"></script>
+    <script src="bar.js"></script>
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <img class="logoside" src="logo.png" alt="" srcset="">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quienes.html">Quienes Somos</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contactme.html">Contactanos</a></li>
+        </ul>
+    </div>
+
+    <div id="toggle-btn" onclick="toggleSidebar(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+    </div>
+    
+    <div class="contenido" id="mainSidenav">
+        
+        <header>
+            <img class="logotop" src="logotop.png" alt="" srcset="">
+        </header>
+
+
+        <div class="block-pr banner text-left animated fadeInDown">
+            <div class="container-fluid container440">
+                <span class="title-principalis animated fadeInLeft">Acerca de Nosotros</span>
+            </div>
+        </div>
+
+        <div class="block-pr">
+            <div class="container-fluid container440 animated fadeInLeft">
+                <h1 class="titleprincipal orange">Quienes Somos</h1>
+                <div class="row">
+                    <div class="col-md-6 producto">
+                        <h1 class="teal">Misión</h1>
+                        <p style="font-size: 20px">Vivamus nec maximus felis. Ut aliquet dolor tempor ipsum blandit placerat. Curabitur id hendrerit elit. Mauris consectetur consequat risus quis sodales.
+                             Donec euismod, lorem ut dapibus rutrum, lorem justo tincidunt ligula, sed blandit sem quam convallis ante. Nulla lacinia sagittis imperdiet. 
+                             Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed libero mi, congue id lacus nec, bibendum viverra lacus. 
+                             Fusce quis dui porta, finibus risus ut, bibendum risus.</p>
+                        <h1 class="teal">Visión</h1>
+                        <p style="font-size: 20px">Cras suscipit fermentum nisi, eu pulvinar ex rutrum et. Morbi elit urna, maximus non pellentesque vel, sagittis sed lectus. Suspendisse sit amet mauris turpis.
+                             Donec ut tincidunt lacus. Duis interdum blandit sem, at pulvinar libero sodales blandit. Sed lectus lectus, sollicitudin nec porttitor nec, pellentesque vel urna.</p>
+                    </div>
+                    <div class="col-md-6 producto">
+                        <div class="swiper-container gallery-top">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1274.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1300.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1308.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1311.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1313.jpg)"></div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1274.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1300.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1308.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1311.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(fotos/IMG_1313.jpg)"></div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="block-pr bor-org">
+            <div class="container-fluid container440">
+                <div class="row top40">
+                    <div class="col-md-6 text-left">
+                        <h2 class="orange"> <i class="fa fa-map-marker" style="color:teal; font-size:36px; width: 36px"></i> Ubicación</h2>
+                        <h4 class="teal">Panamericana Sur s/n. Temuco, IX Región </h4>
+                        <h2 class="orange"> <i class="fa fa-phone" style="color:teal; font-size:36px; width: 36px"></i> Teléfono</h2>
+                        <h4 class="teal">(45) 555 2233 </h4>
+                        <h2 class="orange"> <i class="fa fa-envelope" style="color:teal; font-size:36px; width: 36px"></i> Contacto</h2>
+                        <h4 class="teal">maderas@cordillera.cl </h4>
+                    </div>
+                    <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d939.8315786333051!2d-72.64550700035616!3d-38.75403074956283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d69dff7a28fd%3A0x31a318c101c39232!2sLas+T%C3%B3rtolas+2991-3031%2C+Temuco%2C+Regi%C3%B3n+de+la+Araucan%C3%ADa%2C+Chile!5e1!3m2!1ses!2sus!4v1529541545203" width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-pr bor-teal">
+            <div class="container440">
+                <footer>Maquit - Las fotos son referenciales y no muestran un resultado final.</footer>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+            var galleryTop = new Swiper('.gallery-top', {
+              spaceBetween: 0,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+            var galleryThumbs = new Swiper('.gallery-thumbs', {
+              spaceBetween: 10,
+              centeredSlides: true,
+              slidesPerView: 'auto',
+              touchRatio: 0.2,
+              slideToClickedSlide: true,
+            });
+            galleryTop.controller.control = galleryThumbs;
+            galleryThumbs.controller.control = galleryTop;
+          </script>
+    
+</body>
+</html>
