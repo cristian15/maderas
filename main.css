@@ -141,9 +141,8 @@ body {
     border: 1px solid teal;
     height: 500px;
   }
-  .imgdiv{
-    height: 320px;
-  }
+  .imgdiv{height: 320px;}
+  .h500{height: 500px;}
   .swiper-container-v {
     background: #eee;
   }
